@@ -9,31 +9,31 @@
     border: none;
 }
 
+body {
+    width: 100%;
+    height: auto;
+}
+
 #container {
     background-color: hsl(30, 38%, 92%);
     display: flex;
-    text-align: center;
-}
-
-#photo-product {
-    width: 100%;
-    height: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 #photo-product img {
     width: 400px;
     height: auto;
-    margin: 90px;
     border-radius: 12px 0 0 12px;
 }
 
 #product-description {
     background-color: hsl(0, 0%, 100%);
-    width: 500px;
-    height: 600px;
-    margin: 90px 450px 90px -465px;
+    width: 400px;
+    height: 603px;
     border-radius: 0 12px 12px 0;
-    
 }
 
 #perfume {
