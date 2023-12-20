@@ -89,7 +89,7 @@ body {
 #button {
     width: 300px;
     height: 50px;
-    background-color: hsl(212, 21%, 14%);
+    background-color: hsl(158, 36%, 37%);
     display: flex;
     border-radius: 12px;
     margin: 15px auto;
@@ -111,12 +111,12 @@ body {
     #container {
         background-color: hsl(30, 38%, 92%);
         display: block;
-        width: 375px;
+        width: 425px;
         height: auto;
     }
     
     #photo-product img {
-        width: 350px;
+        width: 400px;
         height: auto;
         border-radius: 12px 12px 0 0;
         margin: 20px 10px 0 10px;
@@ -124,7 +124,7 @@ body {
     
     #product-description {
         background-color: hsl(0, 0%, 100%);
-        width: 350px;
+        width: 400px;
         height: auto;
         border-radius: 0 0 12px 12px;
         margin: -40px 10px 0 10px;
@@ -135,16 +135,16 @@ body {
     }
     
     #product-title {
-        font-size: 32px;
-        line-height: 32px;
+        font-size: 38px;
+        line-height: 36px;
         margin-top: -20px;
     }
     
     #product-details {
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 500;
         color: hsl(228, 12%, 48%);
-        line-height: 20px;
+        line-height: 25px;
         margin-top: -20px;
     }
 
@@ -155,10 +155,16 @@ body {
     #button {
         width: 300px;
         height: 50px;
-        background-color: hsl(212, 21%, 14%);
+        background-color: hsl(158, 36%, 37%);
         display: flex;
         border-radius: 12px;
         margin: 15px auto;
+        cursor: pointer;
+    }
+
+    #button:hover {
+        background-color: hsl(212, 21%, 14%);
+        transform: scale(1.2);
     }
     
     #button h4 {
