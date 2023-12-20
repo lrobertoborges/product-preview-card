@@ -42,7 +42,7 @@ body {
     color: hsl(228, 12%, 48%);
     text-transform: uppercase;
     font-weight: 500;
-    letter-spacing: 5px;
+    letter-spacing: 6px;
     margin: 35px;
     text-align: left;
 }
@@ -67,7 +67,6 @@ body {
 
 #prices {
     display: flex;
-    margin: ;
 }
 
 #promocional-price {
@@ -106,4 +105,71 @@ body {
 
 #button img {
     padding: 15px 0px 5px 75px;
+}
+
+@media (max-width: 375px) {
+    #container {
+        background-color: hsl(30, 38%, 92%);
+        display: block;
+        width: 375px;
+        height: auto;
+    }
+    
+    #photo-product img {
+        width: 350px;
+        height: auto;
+        border-radius: 12px 12px 0 0;
+        margin: 20px 10px 0 10px;
+    }
+    
+    #product-description {
+        background-color: hsl(0, 0%, 100%);
+        width: 350px;
+        height: auto;
+        border-radius: 0 0 12px 12px;
+        margin: -40px 10px 0 10px;
+    }
+
+    #perfume {
+        padding-top: 25px;
+    }
+    
+    #product-title {
+        font-size: 32px;
+        line-height: 32px;
+        margin-top: -20px;
+    }
+    
+    #product-details {
+        font-size: 12px;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+        line-height: 20px;
+        margin-top: -20px;
+    }
+
+    #prices {
+        margin-top: -20px;
+    }
+    
+    #button {
+        width: 300px;
+        height: 50px;
+        background-color: hsl(212, 21%, 14%);
+        display: flex;
+        border-radius: 12px;
+        margin: 15px auto;
+    }
+    
+    #button h4 {
+        padding: 15px 20px;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Montserrat', Arial, sans-serif;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    
+    #button img {
+        padding: 15px 0px 5px 75px;
+    }
 }

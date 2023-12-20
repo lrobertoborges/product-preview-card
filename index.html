@@ -11,7 +11,12 @@
 <body>
     <main id="container">
         <div id="photo-product">
-            <img src="./images/image-product-desktop.jpg" alt="">
+
+            <picture>
+                <source media="(max-width: 375px )" srcset="./images/image-product-mobile.jpg">
+            
+                <img src="./images/image-product-desktop.jpg" alt="">
+            </picture>
         </div>
 
         <div id="product-description">
